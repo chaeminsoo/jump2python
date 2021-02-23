@@ -7,10 +7,10 @@ for i in contents:
     ref +=int(i)
 aver = ref/len(contents)
 
+
 #print(ref,'\n',aver)
 
 f2=open('C:/vscpython/result.txt', 'w')
-ment1 = 'total: $d' % ref
-ment2 = 'average: $d' % aver
-f2.write(ment1, ment2)
+ment = 'total: %s\naverage: %s' % (ref,aver)
+f2.write(ment)
 f2.close()
