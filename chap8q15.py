@@ -1,3 +1,5 @@
+#incompleted
+
 #입력 -> 분석 -> true/false
 #0123456789 -> Ture, 9685471230 -> Ture, 6328 -> false, 0112346789 -> false
 
