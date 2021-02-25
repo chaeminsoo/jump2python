@@ -6,7 +6,7 @@
 import re
 
 def DupNums(num):
-    p = re.compile(r'\d+\s')
+    p = re.compile(r'\d+')
     refnum = p.findall(num)
     result =[]
     for element in refnum:
